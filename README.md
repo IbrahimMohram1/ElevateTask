@@ -1,18 +1,28 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Features
 
-## Getting Started
+Dynamic product gallery with search functionality
+Individual product detail pages
+Responsive design for all devices
+Server-side rendering
+TypeScript implementation
+Modern UI with Tailwind CSS
 
-First, run the development server:
+Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Next.js
+TypeScript
+Tailwind CSS
+Fake Store API
+
+├── app/
+│   ├── page.tsx          # Main product gallery
+│   ├── loading.tsx       # Loading component
+│   └── product/
+│       └── [id]/
+│           └── page.tsx  # Product details page
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
